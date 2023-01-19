@@ -1,11 +1,9 @@
 body{
-    background-color: black
+    background-color: #DCE1E3;
 }
-
 .title-word {
     animation: color-animation 4s linear infinite;
   }
-
   .title-letters-1 {
     --color-1: #DF8453;
     --color-2: #3D8DAE;
@@ -40,7 +38,6 @@ body{
     100%  {color: var(--color-1)}
   }
   
-  /* Here are just some visual styles. 🖌 */
   
   .container {
     display: grid;
@@ -54,4 +51,67 @@ body{
     font-weight: 800;
     font-size: 50px;
     text-transform: uppercase;
+  }
+
+  /*Nav Items */
+  .navlinks{
+    border-bottom: black 1px solid;
+    height: 70px;
+    width: 100%;
+    background-color: #DCE1E3;
+    text-decoration: none;
+  }
+  .navlinks li{
+    list-style: none;
+    display: inline-block;
+  }
+  .navlinks a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #ACCFCB;
+    font-size: 30px;
+    position: relative;
+    top: 9px;
+    padding: 0 8px 0 8px;
+    text-shadow: black 0.5px 0.5px;
+  }
+
+  .navlinks a:hover{
+    color: orange;
+    text-decoration: none;
+  }
+
+  .navlinks a:link{
+    color: rgb(252, 245, 245);
+    text-decoration: none;
+  }
+
+  .navlinks a:active{
+    color: rgb(252, 245, 245);
+    text-decoration: none;
+    
+  }
+  .navlinks a:visited{
+    color: rgb(252, 245, 245);
+    text-decoration: none;
+    
+  }
+
+  /* Projects Grid */
+  .projects-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    row-gap: 5%;
+    column-gap: 5%;
+   
+  }
+  .projects {
+    background-color: #DCE1E3;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
   }

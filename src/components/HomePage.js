@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Projects from '../components/Projects'
 
 const  HomePage = () =>{
     
@@ -15,6 +15,9 @@ const  HomePage = () =>{
         <span class="title-word title-letters-3"> Por</span>
         <span class="title-word title-letters-4">ter</span>
       </h2>
+      <div className="my-projects">
+      <Projects></Projects>
+      </div>
     </div>
       
       );
