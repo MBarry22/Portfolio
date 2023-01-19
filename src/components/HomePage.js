@@ -1,5 +1,7 @@
 import React from 'react'
 import Projects from '../components/Projects'
+import Footer from '../components/Footer'
+import About from './About'
 
 const  HomePage = () =>{
     
@@ -18,7 +20,14 @@ const  HomePage = () =>{
       <div className="my-projects">
       <Projects></Projects>
       </div>
+      <div className="Footer">
+      
+      </div>
+      <div className="About">
+        <About></About>
+      </div>
     </div>
+    
       
       );
       

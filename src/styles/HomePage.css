@@ -40,10 +40,10 @@ body{
   
   
   .container {
-    display: grid;
-    place-items: center;  
+    height: 100%;
+    width: 100%;
     text-align: center;
-    height: 10%
+    justify-content: center;
   }
   
   .title {
@@ -109,9 +109,42 @@ body{
    
   }
   .projects {
-    background-color: #DCE1E3;
+    background-color: #b1b3b4;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 50px;
     font-size: 30px;
     text-align: center;
   }
+
+
+  /* About */
+
+  .about-container{
+    height: 200px;
+    width: 100%;
+    
+  
+    
+   }
+   .about{
+    position: relative;
+    top: 5rem;
+    font-family: "Montserrat", sans-serif;
+
+    
+   }
+
+
+  /* Footer */
+  .footer-container {
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.8); ;
+    height: 60px;   
+    background: #DCE1E3;
+ }
+ .footer{
+  font-family: "Montserrat", sans-serif;
+  margin-top: 22px;
+ }
+
