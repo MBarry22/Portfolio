@@ -1,6 +1,8 @@
+
+
 body{
     background-color: #DCE1E3;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Cardo", sans-serif;
     
 }
 .head-preview{
@@ -16,12 +18,13 @@ body{
   width: 50%;
   height: 100%;
   float: right;
-  border: #3D8DAE 1px solid;
+  
 }
 
 .head-float-right img{
-  background-color: #17494D;
+  background-color: #1a1a1a;
   border-radius: 50%;
+  height: 50%;
 }
 
 /* About (Left of Snapshot) */
@@ -33,14 +36,27 @@ body{
   
 }
 .head-float-left h2{
-  color: black;
+  color: #cccccc;
   font-size: 50px;
   font-weight:700;
 }
 .head-float-left p{
   font-size: 20px;
+  width: 70%;
+  margin-left: 15%;
+  color: #cccccc;
+
+}
+.about{
+  position: relative;
+  border: #1a1a1a 1px solid;
+  height: 650px;
   width: 50%;
-  margin-left: 25%;
+  left: 35%;
+  margin-top: 6%;
+  background-color: #1a1a1a;
+  border-radius: 4%;
+  box-shadow: #1a1a1a 10px 10px 15px;
 
 }
 
@@ -48,27 +64,27 @@ body{
     animation: color-animation 4s linear infinite;
   }
   .title-letters-1 {
-    --color-1: #DF8453;
-    --color-2: #3D8DAE;
-    --color-3: #E4A9A8;
+    --color-1: #1a1a1a;
+    --color-2: #cccccc;
+    --color-3: #1a1a1a;
   }
   
   .title-letters-2 {
-    --color-1: #DBAD4A;
-    --color-2: #ACCFCB;
-    --color-3: #17494D;
+    --color-1: #cccccc;
+    --color-2: #1a1a1a;
+    --color-3: #cccccc;
   }
   
   .title-letters-3 {
-    --color-1: #ACCFCB;
-    --color-2: #E4A9A8;
-    --color-3: #ACCFCB;
+    --color-1: #1a1a1a;
+    --color-2: #cccccc;
+    --color-3: #1a1a1a;
   }
   
   .title-letters-4 {
-    --color-1: #3D8DAE;
-    --color-2: #DF8453;
-    --color-3: #E4A9A8;
+    --color-1: #cccccc;
+    --color-2: #1a1a1a;
+    --color-3: #cccccc;
   }
   
   @keyframes color-animation {
@@ -90,7 +106,7 @@ body{
   }
   
   .title {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Cardo", sans-serif;
     font-weight: 800;
     font-size: 50px;
     text-transform: uppercase;
@@ -109,14 +125,14 @@ body{
     display: inline-block;
   }
   .navlinks a{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Cardo", sans-serif;
     font-weight: 500;
-    color: #ACCFCB;
+    color: #1a1a1a;
     font-size: 30px;
     position: relative;
     top: 9px;
     padding: 0 8px 0 8px;
-    text-shadow: black 0.5px 0.5px;
+    
   }
 
   .navlinks a:hover{
@@ -125,17 +141,17 @@ body{
   }
 
   .navlinks a:link{
-    color: rgb(252, 245, 245);
+    color: #1a1a1a;
     text-decoration: none;
   }
 
   .navlinks a:active{
-    color: rgb(252, 245, 245);
+    color: #1a1a1a;
     text-decoration: none;
     
   }
   .navlinks a:visited{
-    color: rgb(252, 245, 245);
+    color: #1a1a1a;
     text-decoration: none;
     
   }
@@ -152,21 +168,17 @@ body{
    
   }
   .projects {
-    background-color: #b1b3b4;
+    background-color: #1a1a1a;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 50px;
     font-size: 30px;
+    color: #cccccc;
     text-align: center;
   }
 
 
-  /* About */
 
-  .about-container{
-    height: 200px;
-    width: 100%;
-    
-   }
+  
 
 
   /* Footer */
@@ -178,7 +190,7 @@ body{
     background: #DCE1E3;
  }
  .footer{
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cardo", sans-serif;
   margin-top: 22px;
  }
 
