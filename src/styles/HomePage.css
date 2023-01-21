@@ -20,8 +20,26 @@ body{
   float: right;
   
 }
+.socials p{
+  font-size: 25px;
+  font-weight: bold;
 
-.head-float-right img{
+  text-decoration: underline;
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+.socials img{
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
+ 
+ }
+
+ .footer img:hover{
+  cursor: pointer;
+ }
+
+#snapshot{
   background-color: #1a1a1a;
   border-radius: 50%;
   height: 50%;
@@ -60,7 +78,7 @@ body{
 
 }
 
-.title-word {
+/*.title-word {
     animation: color-animation 4s linear infinite;
   }
   .title-letters-1 {
@@ -96,6 +114,7 @@ body{
     99%   {color: var(--color-3)}
     100%  {color: var(--color-1)}
   }
+  */
   
   
   .container {
@@ -110,6 +129,7 @@ body{
     font-weight: 800;
     font-size: 50px;
     text-transform: uppercase;
+    color: #1a1a1a;
   }
 
   /*Nav Items */
@@ -165,6 +185,7 @@ body{
     grid-template-columns: 30% 30% 30%;
     row-gap: 5%;
     column-gap: 5%;
+    margin-bottom: 5%;
    
   }
   .projects {
@@ -192,5 +213,11 @@ body{
  .footer{
   font-family: "Cardo", sans-serif;
   margin-top: 22px;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1a1a1a;
  }
+
 
