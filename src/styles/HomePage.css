@@ -221,3 +221,79 @@ body{
  }
 
 
+ /* Contact Page */
+ main{
+  position: relative;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vh;
+  left: 30%;
+  width: 100%;
+  height: 850px;
+  max-width: 500px
+}
+form{
+  width: 95%;
+}
+#contact-h2{
+  position: relative;
+  left: 15px;
+  margin-bottom: 20px;
+}
+ .form-container{
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 40%;
+  top: 10%;
+  min-height: 500px;
+  display: flex;
+  background-color: #1a1a1a;
+  border: solid 1px #cccccc;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px black;
+  color: #cccccc;
+ }
+
+ .account-info input{
+  width: 100%;
+  background-color: #e5e9ec;
+  border: none;
+  border-radius: 2px;
+  height: 28px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.account-info input:focus{
+  width: 100%;
+  background-color: #e5e9ec;
+  border: 3px solid;
+  border-color: #cccccc;
+  outline: #cccccc;
+  border-radius: 2px;
+  height: 28px
+}
+#contact-about{
+  width: 100%;
+  background-color: #e5e9ec;
+  border: none;
+  border-radius: 2px;
+  height: 100px;
+  resize: none;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+input[type=submit]{}
+
+ fieldset {
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  width: 100%;
+  font-size: 15px;
+
+}
+

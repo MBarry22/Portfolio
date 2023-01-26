@@ -17,6 +17,10 @@ const  HomePage = () =>{
 
       <div class="container">
       <div className="head-preview">
+      <div className="head-float-left">
+          <About></About>
+        </div>
+        
         <div className="head-float-right">
           <h2 class="title">
             <span class="title-word title-letters-1">Mas</span>
@@ -33,10 +37,8 @@ const  HomePage = () =>{
             <a target="_blank" href='https://www.instagram.com/_masonporter_/?hl=en'><img src={instagram_logo} alt="Instagram Logo"></img></a>
             <a target="_blank" href='https://discord.com/users/215242572904267786'><img src={discord_logo} alt="Discord Logo" ></img></a>
           </div>
-        </div>
-        <div className="head-float-left">
-            <About></About>
           </div>
+          
       </div>
       <div className="my-projects">
       <Projects></Projects>
